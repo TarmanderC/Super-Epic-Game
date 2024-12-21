@@ -36,4 +36,5 @@ public class Enemy : MonoBehaviour
             isPlayerClose = false;
         }
     }
+    public bool nearbyPlayer => isPlayerClose;
 }
